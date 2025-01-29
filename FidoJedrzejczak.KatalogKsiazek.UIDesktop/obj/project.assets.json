@@ -564,7 +564,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FidoJedrzejczak.KatalogKsiazek.Core": "1.0.0",
-          "FidoJedrzejczak.KatalogKsiazek.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.1"
         },
         "compile": {
@@ -578,7 +577,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "FidoJedrzejczak.KatalogKsiazek.Core": "1.0.0"
+          "FidoJedrzejczak.KatalogKsiazek.DAO": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FidoJedrzejczak.KatalogKsiazek.Interfaces.dll": {}
@@ -1353,11 +1352,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
       "projectName": "FidoJedrzejczak.KatalogKsiazek.UIDesktop",
-      "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
+      "projectPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
       "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\obj\\",
+      "outputPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1375,11 +1374,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj": {
-              "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj"
+            "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj": {
+              "projectPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj"
             },
-            "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj": {
-              "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj"
+            "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj": {
+              "projectPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj"
             }
           }
         }

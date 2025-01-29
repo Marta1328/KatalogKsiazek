@@ -417,7 +417,6 @@
       "FidoJedrzejczak.KatalogKsiazek.DAO/1.0.0": {
         "dependencies": {
           "FidoJedrzejczak.KatalogKsiazek.Core": "1.0.0",
-          "FidoJedrzejczak.KatalogKsiazek.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.1"
         },
         "runtime": {
@@ -429,7 +428,7 @@
       },
       "FidoJedrzejczak.KatalogKsiazek.Interfaces/1.0.0": {
         "dependencies": {
-          "FidoJedrzejczak.KatalogKsiazek.Core": "1.0.0"
+          "FidoJedrzejczak.KatalogKsiazek.DAO": "1.0.0"
         },
         "runtime": {
           "FidoJedrzejczak.KatalogKsiazek.Interfaces.dll": {

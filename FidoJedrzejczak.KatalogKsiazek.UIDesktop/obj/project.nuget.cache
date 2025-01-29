@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GaOb3cnt4RM=",
+  "dgSpecHash": "sSRFBY3feAQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
+  "projectFilePath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIDesktop\\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marta\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.1\\microsoft.data.sqlite.core.9.0.1.nupkg.sha512",
     "C:\\Users\\marta\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WmPH3kxWQ/M=",
+  "dgSpecHash": "oFefcJeMQyU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj",
+  "projectFilePath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\marta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

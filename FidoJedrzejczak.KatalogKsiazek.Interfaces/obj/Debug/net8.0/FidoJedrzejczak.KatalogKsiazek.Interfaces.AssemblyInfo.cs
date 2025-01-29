@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FidoJedrzejczak.KatalogKsiazek.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b309bd6391cc36bb98e1c4140a76497d9a9d7e7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b296c70f526dd95819bc81c8def1593e707e75b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FidoJedrzejczak.KatalogKsiazek.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FidoJedrzejczak.KatalogKsiazek.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

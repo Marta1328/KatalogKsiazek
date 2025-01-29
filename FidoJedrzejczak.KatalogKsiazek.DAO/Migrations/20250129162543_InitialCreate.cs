@@ -13,20 +13,6 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Wydawnictwa",
-                columns: table => new
-                {
-                    WydawnictwoID = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Nazwa = table.Column<string>(type: "TEXT", nullable: false),
-                    Adres = table.Column<string>(type: "TEXT", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Wydawnictwa", x => x.WydawnictwoID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Ksiazki",
                 columns: table => new
                 {
@@ -42,21 +28,20 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Ksiazki", x => x.KsiazkaID);
-                    table.ForeignKey(
-                        name: "FK_Ksiazki_Wydawnictwa_WydawnictwoID",
-                        column: x => x.WydawnictwoID,
-                        principalTable: "Wydawnictwa",
-                        principalColumn: "WydawnictwoID",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "Wydawnictwa",
-                columns: new[] { "WydawnictwoID", "Adres", "Nazwa" },
-                values: new object[,]
+            migrationBuilder.CreateTable(
+                name: "Wydawnictwa",
+                columns: table => new
                 {
-                    { 1, "Kraków, ul. Wydawnicza 1", "Znak" },
-                    { 2, "Warszawa, ul. Nauki 3", "PWN" }
+                    WydawnictwoID = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Nazwa = table.Column<string>(type: "TEXT", nullable: false),
+                    Adres = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Wydawnictwa", x => x.WydawnictwoID);
                 });
 
             migrationBuilder.InsertData(
@@ -68,10 +53,14 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                     { 2, "Anna Nowak", 39.99m, 2015, 1, "Druga Książka", 2 }
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Ksiazki_WydawnictwoID",
-                table: "Ksiazki",
-                column: "WydawnictwoID");
+            migrationBuilder.InsertData(
+                table: "Wydawnictwa",
+                columns: new[] { "WydawnictwoID", "Adres", "Nazwa" },
+                values: new object[,]
+                {
+                    { 1, "Kraków, ul. Wydawnicza 1", "Znak" },
+                    { 2, "Warszawa, ul. Nauki 3", "PWN" }
+                });
         }
 
         /// <inheritdoc />

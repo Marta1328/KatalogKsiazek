@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\FidoJedrzejczak.KatalogKsiazek.Core\FidoJedrzejczak.KatalogKsiazek.Core.csproj" />
+    <ProjectReference Include="..\FidoJedrzejczak.KatalogKsiazek.DAO\FidoJedrzejczak.KatalogKsiazek.DAO.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

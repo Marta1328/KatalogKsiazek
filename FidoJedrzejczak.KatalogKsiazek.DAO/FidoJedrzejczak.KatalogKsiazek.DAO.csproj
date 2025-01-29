@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\FidoJedrzejczak.KatalogKsiazek.Interfaces\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj" />
     <ProjectReference Include="..\FidoJedrzejczak.KatalogKsiazek.Core\FidoJedrzejczak.KatalogKsiazek.Core.csproj" />
   </ItemGroup>
 

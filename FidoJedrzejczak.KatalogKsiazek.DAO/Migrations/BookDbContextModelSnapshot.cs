@@ -44,8 +44,6 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
 
                     b.HasKey("KsiazkaID");
 
-                    b.HasIndex("WydawnictwoID");
-
                     b.ToTable("Ksiazki");
 
                     b.HasData(
@@ -102,17 +100,6 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                             Adres = "Warszawa, ul. Nauki 3",
                             Nazwa = "PWN"
                         });
-                });
-
-            modelBuilder.Entity("FidoJedrzejczak.KatalogKsiazek.DAO.Ksiazka", b =>
-                {
-                    b.HasOne("FidoJedrzejczak.KatalogKsiazek.DAO.Wydawnictwo", "Wydawnictwo")
-                        .WithMany()
-                        .HasForeignKey("WydawnictwoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Wydawnictwo");
                 });
 #pragma warning restore 612, 618
         }

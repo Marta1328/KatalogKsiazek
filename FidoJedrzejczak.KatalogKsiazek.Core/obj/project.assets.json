@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
+      "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
       "projectName": "FidoJedrzejczak.KatalogKsiazek.Core",
-      "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
+      "projectPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
       "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\obj\\",
+      "outputPath": "C:\\Users\\marta\\Documents\\wis\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20250129120656_InitialCreate")]
+    [Migration("20250129162543_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -46,8 +46,6 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                         .HasColumnType("INTEGER");
 
                     b.HasKey("KsiazkaID");
-
-                    b.HasIndex("WydawnictwoID");
 
                     b.ToTable("Ksiazki");
 
@@ -105,17 +103,6 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                             Adres = "Warszawa, ul. Nauki 3",
                             Nazwa = "PWN"
                         });
-                });
-
-            modelBuilder.Entity("FidoJedrzejczak.KatalogKsiazek.DAO.Ksiazka", b =>
-                {
-                    b.HasOne("FidoJedrzejczak.KatalogKsiazek.DAO.Wydawnictwo", "Wydawnictwo")
-                        .WithMany()
-                        .HasForeignKey("WydawnictwoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Wydawnictwo");
                 });
 #pragma warning restore 612, 618
         }
