@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
+      "projectUniqueName": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
       "projectName": "FidoJedrzejczak.KatalogKsiazek.BL",
-      "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
+      "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
       "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\obj\\",
+      "outputPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,11 +73,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
-              "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj"
+            "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
+              "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj"
             },
-            "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj"
+            "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\marta\\Documents\\wiss\\KatalogKsiazek\\KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj"
             }
           }
         }

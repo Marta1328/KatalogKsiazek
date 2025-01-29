@@ -10,6 +10,7 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO
             var optionsBuilder = new DbContextOptionsBuilder<BookDbContext>();
             optionsBuilder.UseSqlite("Data Source=books.db");
 
+
             return new BookDbContext(optionsBuilder.Options);
         }
     }

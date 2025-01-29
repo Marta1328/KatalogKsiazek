@@ -5,20 +5,22 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO
 {
     public class BookDbContext : DbContext
     {
-        // Define your DbSet for each entity (table)
         public DbSet<Ksiazka> Ksiazki { get; set; }
+        public DbSet<Wydawnictwo> Wydawnictwa { get; set; } // Add DbSet for Wydawnictwo
 
-        // Constructor that receives DbContextOptions and passes it to the base class
-        public BookDbContext(DbContextOptions<BookDbContext> options) : base(options)
-        {
-        }
+        public BookDbContext(DbContextOptions<BookDbContext> options) : base(options) { }
 
-        // Customize model creation (optional)
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Example of seeding some initial data
+
+            modelBuilder.Entity<Wydawnictwo>().HasData(
+                new Wydawnictwo { WydawnictwoID = 1, Nazwa = "Znak", Adres = "Kraków, ul. Wydawnicza 1" },
+                new Wydawnictwo { WydawnictwoID = 2, Nazwa = "PWN", Adres = "Warszawa, ul. Nauki 3" }
+            );
+
+
             modelBuilder.Entity<Ksiazka>().HasData(
                 new Ksiazka
                 {
@@ -27,7 +29,7 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO
                     Autor = "Jan Kowalski",
                     RokWydania = 2000,
                     Cena = 29.99M,
-                    Wydawnictwo = Wydawnictwo.Znak,
+                    WydawnictwoID = 1, // Reference WydawnictwoID (Znak)
                     Typ = TypKsiazki.Powiesc
                 },
                 new Ksiazka
@@ -37,7 +39,7 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO
                     Autor = "Anna Nowak",
                     RokWydania = 2015,
                     Cena = 39.99M,
-                    Wydawnictwo = Wydawnictwo.Znak,
+                    WydawnictwoID = 2, // Reference WydawnictwoID (PWN)
                     Typ = TypKsiazki.Podrecznik
                 }
             );

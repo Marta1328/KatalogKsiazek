@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20250129050450_InitialCreate")]
+    [Migration("20250129120656_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -42,10 +42,12 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Wydawnictwo")
+                    b.Property<int>("WydawnictwoID")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("KsiazkaID");
+
+                    b.HasIndex("WydawnictwoID");
 
                     b.ToTable("Ksiazki");
 
@@ -58,7 +60,7 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                             RokWydania = 2000,
                             Typ = 0,
                             Tytul = "Pierwsza Książka",
-                            Wydawnictwo = 1
+                            WydawnictwoID = 1
                         },
                         new
                         {
@@ -68,8 +70,52 @@ namespace FidoJedrzejczak.KatalogKsiazek.DAO.Migrations
                             RokWydania = 2015,
                             Typ = 1,
                             Tytul = "Druga Książka",
-                            Wydawnictwo = 1
+                            WydawnictwoID = 2
                         });
+                });
+
+            modelBuilder.Entity("FidoJedrzejczak.KatalogKsiazek.DAO.Wydawnictwo", b =>
+                {
+                    b.Property<int>("WydawnictwoID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Adres")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nazwa")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("WydawnictwoID");
+
+                    b.ToTable("Wydawnictwa");
+
+                    b.HasData(
+                        new
+                        {
+                            WydawnictwoID = 1,
+                            Adres = "Kraków, ul. Wydawnicza 1",
+                            Nazwa = "Znak"
+                        },
+                        new
+                        {
+                            WydawnictwoID = 2,
+                            Adres = "Warszawa, ul. Nauki 3",
+                            Nazwa = "PWN"
+                        });
+                });
+
+            modelBuilder.Entity("FidoJedrzejczak.KatalogKsiazek.DAO.Ksiazka", b =>
+                {
+                    b.HasOne("FidoJedrzejczak.KatalogKsiazek.DAO.Wydawnictwo", "Wydawnictwo")
+                        .WithMany()
+                        .HasForeignKey("WydawnictwoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Wydawnictwo");
                 });
 #pragma warning restore 612, 618
         }
