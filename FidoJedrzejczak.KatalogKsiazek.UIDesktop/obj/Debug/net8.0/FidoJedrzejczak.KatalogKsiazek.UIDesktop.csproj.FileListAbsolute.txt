@@ -1,0 +1,15 @@
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.exe
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.deps.json
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.runtimeconfig.json
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.AssemblyInfoInputs.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.AssemblyInfo.cs
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj.CoreCompileInputs.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\refint\FidoJedrzejczak.KatalogKsiazek.UIDesktop.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.genruntimeconfig.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\ref\FidoJedrzejczak.KatalogKsiazek.UIDesktop.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.UIDesktop\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.UIDesktop.csproj.AssemblyReference.cache

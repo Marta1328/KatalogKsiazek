@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIWeb\\FidoJedrzejczak.KatalogKsiazek.UIWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
+        "projectName": "FidoJedrzejczak.KatalogKsiazek.BL",
+        "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj"
+              },
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
+        "projectName": "FidoJedrzejczak.KatalogKsiazek.Core",
+        "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj",
+        "projectName": "FidoJedrzejczak.KatalogKsiazek.DAO",
+        "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj"
+              },
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj",
+        "projectName": "FidoJedrzejczak.KatalogKsiazek.Interfaces",
+        "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\FidoJedrzejczak.KatalogKsiazek.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.Core\\FidoJedrzejczak.KatalogKsiazek.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIWeb\\FidoJedrzejczak.KatalogKsiazek.UIWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIWeb\\FidoJedrzejczak.KatalogKsiazek.UIWeb.csproj",
+        "projectName": "FidoJedrzejczak.KatalogKsiazek.UIWeb",
+        "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIWeb\\FidoJedrzejczak.KatalogKsiazek.UIWeb.csproj",
+        "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.UIWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.BL\\FidoJedrzejczak.KatalogKsiazek.BL.csproj"
+              },
+              "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj": {
+                "projectPath": "C:\\Users\\marta\\Documents\\wis\\FidoJedrzejczak.KatalogKsiazek\\FidoJedrzejczak.KatalogKsiazek.DAO\\FidoJedrzejczak.KatalogKsiazek.DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

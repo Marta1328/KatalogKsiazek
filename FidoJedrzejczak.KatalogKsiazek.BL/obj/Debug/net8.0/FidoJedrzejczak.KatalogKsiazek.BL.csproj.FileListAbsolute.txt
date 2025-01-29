@@ -1,0 +1,17 @@
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.deps.json
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.AssemblyInfoInputs.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.AssemblyInfo.cs
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.csproj.CoreCompileInputs.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\refint\FidoJedrzejczak.KatalogKsiazek.BL.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\ref\FidoJedrzejczak.KatalogKsiazek.BL.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.Core.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.Interfaces.dll
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.Core.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\bin\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.Interfaces.pdb
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedrzejczak.KatalogKsiazek.BL.csproj.AssemblyReference.cache
+C:\Users\marta\Documents\wis\FidoJedrzejczak.KatalogKsiazek\FidoJedrzejczak.KatalogKsiazek.BL\obj\Debug\net8.0\FidoJedr.A76C0B4E.Up2Date
